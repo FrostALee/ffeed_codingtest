@@ -117,7 +117,6 @@ function App() {
             ref={ProductRef}
           />
           <WarningWrap>
-            {/* <span style={{display: TextState < 10 ? "none" : ""}}>제품 설명 내용을 최소 10자 이상 작성해주세요</span> */}
             <span>{ProductError.text}</span>
           </WarningWrap>
         </ProductSubWrap>
@@ -171,7 +170,7 @@ function App() {
           </WarningWrap>              
         </CostWrap>
       </BodyWrap>
-      
+
       <SubmitBtn onClick={() => {ChkContent()}}>판매글 올리기</SubmitBtn>
 
     </AllWrap>
@@ -211,9 +210,6 @@ const BodyWrap = styled.div`
   display: flex;
   flex-flow: column nowrap;
   gap: 35px;
-
-  /* border: 1px solid black; */
-
 `
 
 const ProductSubWrap = styled.div`
@@ -223,8 +219,6 @@ const ProductSubWrap = styled.div`
   justify-content: center;
   align-items: center;
   gap: 30px;
-
-  /* border: 1px solid black; */
 `
 
 const ProductTopWrap = styled.div`
@@ -243,7 +237,6 @@ const ImageWrap = styled.div`
 `
 
 const ImageTopWrap = styled.div`
-
 `
 
 const PhotoSpan = styled.span`
@@ -263,8 +256,6 @@ const CostWrap = styled.div`
   display: flex;
   flex-flow: column nowrap;
   gap: 30px;
-
-  /* border: 1px solid black; */
 `
 
 const HeaderSpan = styled.span`
@@ -273,7 +264,6 @@ const HeaderSpan = styled.span`
 `
 
 const ProductLimit = styled.span`
-
 `
 
 const ProductInput = styled.textarea`
@@ -296,7 +286,6 @@ const ImageAddWrap = styled.div`
   gap: 20px;
   height: 200px;
   width: 100%;
-  /* border: 1px solid black; */
 `
 
 const ImageAdd = styled.label`
