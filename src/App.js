@@ -88,10 +88,6 @@ function App() {
     }
   }
 
-  useEffect(() => {
-
-  })
-
 
   return (
 
